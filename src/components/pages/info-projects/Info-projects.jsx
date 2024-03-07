@@ -83,13 +83,15 @@ export const InfoProjects = ({theme}) => {
           <LightButton repoGit={result[0]?.repoGit}  title={result[0]?.title}/>
 
           <div className='info-Portafolio-page__content-carousel'>
-            <SimpleSlider customSettings={customSettings}>
-              {result[0]?.images.map((item) => (
-                <div className='info-Portafolio-page__content-card' key={item}>
-                  <img src={item} alt="" />
-                </div>
-              ))}
-            </SimpleSlider>
+            {result[0]?.images.length >= 3 &&
+              <SimpleSlider customSettings={customSettings}>
+                {result[0]?.images.map((item) => (
+                  <div className='info-Portafolio-page__content-card' key={item}>
+                    <img src={item} alt="" />
+                  </div>
+                ))}
+              </SimpleSlider>
+            }
           </div>
         </div>
         :
