@@ -3,7 +3,46 @@ import projectsList from '../../../data/projectsList'
 import { useParams } from 'react-router-dom';
 import './Info-projects.scss'
 import { LightButton } from '../../molecules/light-button/Light-button';
+import { images } from '../../../assets/image';
+import { SimpleSlider } from '../../molecules/simpleSlider';
 
+
+const esto = [images.vista_contact_x, images.vista_my_budget, images.vista_my_budget, images.vista_my_music_app, images.vista_my_pokedex]
+const customSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  centerMode: true,
+  accessibility: false,
+  responsive: [
+    {
+      breakpoint: 668,
+      settings: {
+        centerMode: false,
+        arrows: false,
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 968,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 1753,
+      arrows: false,
+
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+  ],
+};
 
 export const InfoProjects = ({theme}) => {
   const {id} = useParams()
@@ -16,7 +55,7 @@ export const InfoProjects = ({theme}) => {
           <figure className='info-Portafolio-page__content-image'>
             <img src={result[0]?.image} alt={result[0]?.title} title={result[0]?.title} />
           </figure>
-          
+
           <h1 className='info-Portafolio-page__title'>
             {result[0]?.title}
           </h1>
@@ -43,7 +82,17 @@ export const InfoProjects = ({theme}) => {
             </div>
           </div>
 
-          <LightButton/>
+          <LightButton repoGit={result[0]?.repoGit}  title={result[0]?.title}/>
+
+          <div className='info-Portafolio-page__content-carousel'>
+            <SimpleSlider customSettings={customSettings}>
+              {esto.map((item) => (
+                <div className='info-Portafolio-page__content-card' key={item}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </SimpleSlider>
+          </div>
         </div>
         :
         <div className={`info-Portafolio-page-not-found ${theme ? '--dark' : ''}`}>
