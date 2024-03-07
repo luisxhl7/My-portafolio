@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 3;
     @include FromMin($x-large) {
       align-items: flex-start;
       padding: 0px 0px 0px 5%;
@@ -38,6 +38,7 @@
       color: #e1e1e1;
       & span{
         opacity: 0;
+        text-shadow: 1px 1px 5px black;
       }
       @include FromMax($x-large) {
         font-size: 22px;
@@ -49,6 +50,7 @@
       display: flex;
       align-items: center;
       flex-direction: row;
+      text-shadow: 1px 1px 5px black;
     }
     &__networks{
       a{
