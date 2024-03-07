@@ -13,7 +13,7 @@ const customSettings = {
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  // autoplay: true,
+  autoplay: true,
   centerMode: true,
   accessibility: false,
   responsive: [
@@ -93,7 +93,9 @@ export const InfoProjects = ({theme}) => {
               description='Visitar Pagina'
             />
           </div>
-
+          <h2 className='info-Portafolio-page__subTitle'>
+            Vista previa
+          </h2>
           <div className='info-Portafolio-page__content-carousel'>
             {result[0]?.images.length >= 3 &&
               <SimpleSlider customSettings={customSettings}>
@@ -105,7 +107,7 @@ export const InfoProjects = ({theme}) => {
               </SimpleSlider>
             }
           </div>
-
+          
           {result[0]?.video && 
             <div  className='info-Portafolio-page__content-video'>
               <YoutubePlayer 
