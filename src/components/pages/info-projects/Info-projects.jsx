@@ -79,15 +79,26 @@ export const InfoProjects = ({theme}) => {
               </ul>
             </div>
           </div>
-
-          <LightButton repoGit={result[0]?.repoGit}  title={result[0]?.title}/>
+          
+          <div className='info-Portafolio-page__content-lightButtons'>
+            <LightButton 
+              repoGit={result[0]?.repoGit} 
+              title={`Visitar repositorio de ${result[0]?.title}`} 
+              description='Visitar Repositorio'
+            />
+            <LightButton 
+              repoGit={result[0]?.url} 
+              title={`Visitar pagina de ${result[0]?.title}`} 
+              description='Visitar Pagina'
+            />
+          </div>
 
           <div className='info-Portafolio-page__content-carousel'>
             {result[0]?.images.length >= 3 &&
               <SimpleSlider customSettings={customSettings}>
                 {result[0]?.images.map((item) => (
                   <div className='info-Portafolio-page__content-card' key={item}>
-                    <img src={item} alt="" />
+                    <img src={item} alt={`imagen ${result[0]?.title}`} />
                   </div>
                 ))}
               </SimpleSlider>
