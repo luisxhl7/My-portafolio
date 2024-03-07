@@ -1,13 +1,11 @@
 import React from 'react'
 import projectsList from '../../../data/projectsList'
 import { useParams } from 'react-router-dom';
-import './Info-projects.scss'
 import { LightButton } from '../../molecules/light-button/Light-button';
-import { images } from '../../../assets/image';
 import { SimpleSlider } from '../../molecules/simpleSlider';
+import './Info-projects.scss'
 
 
-const esto = [images.vista_contact_x, images.vista_my_budget, images.vista_my_budget, images.vista_my_music_app, images.vista_my_pokedex]
 const customSettings = {
   dots: true,
   infinite: true,
@@ -86,7 +84,7 @@ export const InfoProjects = ({theme}) => {
 
           <div className='info-Portafolio-page__content-carousel'>
             <SimpleSlider customSettings={customSettings}>
-              {esto.map((item) => (
+              {result[0]?.images.map((item) => (
                 <div className='info-Portafolio-page__content-card' key={item}>
                   <img src={item} alt="" />
                 </div>

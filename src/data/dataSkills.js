@@ -1,57 +1,57 @@
-import { images } from "../assets/image";
+import { imagesSkills } from "../assets/images-skills/image";
 
 const skillList = [
   {
-    image: images.html,
+    image: imagesSkills.html,
     name: 'Html',
   },
   {
-    image: images.css,
+    image: imagesSkills.css,
     name: 'Css',
   },
   {
-    image: images.javaScript,
+    image: imagesSkills.javaScript,
     name: 'JavaScript',
   },
   {
-    image: images.react,
+    image: imagesSkills.react,
     name: 'React Js',
   },
   {
-    image: images.nextJs,
+    image: imagesSkills.nextJs,
     name: 'next Js',
   },
   {
-    image: images.sass,
+    image: imagesSkills.sass,
     name: 'Sass',
   },
   {
-    image: images.testing_library,
+    image: imagesSkills.testing_library,
     name: 'Testing Library',
   },
   {
-    image: images.git,
+    image: imagesSkills.git,
     name: 'Git',
   },
   {
-    image: images.github,
+    image: imagesSkills.github,
     name: 'GitHub',
     className: '--filter-gitHub',
   },
   {
-    image: images.typeScript,
+    image: imagesSkills.typeScript,
     name: 'TypeScript',
   },
   {
-    image: images.awsImage,
+    image: imagesSkills.awsImage,
     name: 'AWS Amazon',
   },
   {
-    image: images.bootstrap,
+    image: imagesSkills.bootstrap,
     name: 'Bootstrap',
   },
   {
-    image: images.materialUI,
+    image: imagesSkills.materialUI,
     name: 'Material UI',
   },
 ]

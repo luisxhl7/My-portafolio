@@ -1,6 +1,6 @@
 import React from 'react';
-import imageUser from "../../../assets/imagen-luis.png";
-import pdf from '../../../../src/downLoad/cv-Luis-Carlos-Hernandez-Lopez.pdf';
+import imageUser from "../../../assets/imagen-luis.svg";
+// import pdf from '../../../../src/downLoad/cv-Luis-Carlos-Hernandez-Lopez.pdf';
 import './AboutMe.scss';
 
 

@@ -1,8 +1,9 @@
-import { images } from "../assets/image";
+import { imagesProjects } from "../assets/images-projects/image";
+import { imagesSkills } from "../assets/images-skills/image";
 
 const projectsList = [
     {
-        image: images.vista_my_portafolio,
+        image: imagesProjects.vista_portafolio_1,
         title: 'Mi portafolio',
         nameLink: 'mi-portafolio',
         description: 'mi portafolio me permite enseñar un poco sobre mi y mis proyectos personales',
@@ -17,35 +18,42 @@ const projectsList = [
         repoGit: 'https://github.com/luisxhl7/portada-portafolio',
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             }
+        ],
+        images:[
+            imagesProjects.vista_portafolio_1,
+            imagesProjects.vista_portafolio_2,
+            imagesProjects.vista_portafolio_3,
+            imagesProjects.vista_portafolio_4,
+            imagesProjects.vista_portafolio_5,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
     {
-        image: images.vista_my_music_app,
+        image: imagesProjects.vista_my_music_app_5,
         title: 'My music app',
         nameLink: 'my-music-app',
         description: 'Clon de Spotify: ¡Descubre mi proyecto de streaming de música utilizando la api de spotify!',
@@ -60,35 +68,42 @@ const projectsList = [
         repoGit: 'https://github.com/luisxhl7/portafolio-my-music-app',
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             }
+        ],
+        images: [
+            imagesProjects.vista_my_music_app_1,
+            imagesProjects.vista_my_music_app_2,
+            imagesProjects.vista_my_music_app_3,
+            imagesProjects.vista_my_music_app_4,
+            imagesProjects.vista_my_music_app_5,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Axios', 'Git', 'Redux', 'Api Spotify']
     },
     {
-        image: images.vista_my_store,
+        image: imagesProjects.vista_my_store_1,
         title: 'My Store',
         nameLink: 'my-store',
         description: 'My Store es una plataforma en línea diseñada para impulsar y promover el mercado de componentes para PC.',
@@ -103,35 +118,41 @@ const projectsList = [
         repoGit: 'https://github.com/luisxhl7/my-store',
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             }
+        ],
+        images: [
+            imagesProjects.vista_my_store_1,
+            imagesProjects.vista_my_store_2,
+            imagesProjects.vista_my_store_3,
+            imagesProjects.vista_my_store_4,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
     {
-        image: images.vista_my_pokedex,
+        image: imagesProjects.vista_my_pokedex_1,
         title: 'My Pokedex',
         nameLink: 'my-pokedex',
         description: 'La Pokédex es una guía esencial que proporciona información detallada sobre cada Pokémon, incluyendo sus características, habilidades, tipos y hábitats, en el mundo de Pokémon.',
@@ -146,39 +167,45 @@ const projectsList = [
         repoGit: 'https://github.com/luisxhl7/my-pokedexx',
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.nextJs,
+                image: imagesSkills.nextJs,
                 name: 'NextJs'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             },
+        ],
+        images: [
+            imagesProjects.vista_my_pokedex_1,
+            imagesProjects.vista_my_pokedex_2,
+            imagesProjects.vista_my_pokedex_3,
+            imagesProjects.vista_my_pokedex_4,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['next js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Axios', 'Git', 'Api "PokeApi"']
     },
     {
-        image: images.vista_my_budget,
+        image: imagesProjects.vista_my_budget_1,
         title: 'My budget',
         nameLink: 'my-budget',
         description: 'My budget es una plataforma que te permite guardar de forma local todos tus ingresos y egresos teniendo un control y estadísticas de estas.',
@@ -191,35 +218,38 @@ const projectsList = [
         </>,
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             }
+        ],
+        images: [
+            imagesProjects.vista_my_budget_1,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
     {
-        image: images.vista_contact_x,
+        image: imagesProjects.vista_photShare_3,
         title: 'PostSphere',
         nameLink: 'postSphere',
         description: 'PostSphere es un proyecto de publicación en línea que facilita a los usuarios la creación y compartición de publicaciones breves y concisas',
@@ -232,37 +262,43 @@ const projectsList = [
         repoGit: 'https://github.com/luisxhl7/postShere',
         technologies: [
             {
-                image: images.react,
+                image: imagesSkills.react,
                 name: 'react js'
             },
             {
-                image: images.javaScript,
+                image: imagesSkills.javaScript,
                 name: 'javaScript'
             },
             {
-                image: images.sass,
+                image: imagesSkills.sass,
                 name: 'Sass'
             },
             {
-                image: images.git,
+                image: imagesSkills.git,
                 name: 'git'
             },
             {
-                image: images.github,
+                image: imagesSkills.github,
                 name: 'github'
             },
             {
-                image: images.testing_library,
+                image: imagesSkills.testing_library,
                 name: 'testing library'
             },
             {
-                image: images.awsImage,
+                image: imagesSkills.awsImage,
                 name: 'AWS'
             },
             {
-                image: images.bootstrap,
+                image: imagesSkills.bootstrap,
                 name: 'Bootstrap'
             },
+        ],
+        images: [
+            imagesProjects.vista_photShare_1,
+            imagesProjects.vista_photShare_2,
+            imagesProjects.vista_photShare_3,
+            imagesProjects.vista_photShare_4,
         ],
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Bootstrap', 'Testing Library', 'Axios', 'Git', 'Redux', 'MongoDb', 'serverless', 'Aws lambda', 'Api Gateway', 'Cognito' ]
