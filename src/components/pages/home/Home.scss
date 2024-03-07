@@ -1,0 +1,222 @@
+@import '../../../style/mixins.scss';
+@import '../../../style/variables.scss';
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(7deg, #ffe66d, #6bfff0, black, #00001e, #00001e);
+  background-size: 1000% 400%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  animation-name: animationDarling;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+
+  @include FromMin($x-large) {
+    flex-direction: row;
+  }
+  &__description{
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    @include FromMin($x-large) {
+      align-items: flex-start;
+      padding: 0px 0px 0px 5%;
+    }
+    &__title{
+      margin: 0px 0px 10px 0px;
+      color: #e1e1e1;
+      & span{
+        opacity: 0;
+      }
+      @include FromMax($x-large) {
+        font-size: 22px;
+      }
+    }
+    &__text{
+      color: $color-text-grey;
+      margin: 5px 0px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    &__networks{
+      a{
+        color: #e1e1e1;
+        margin: 5px 10px 5px 0px;
+        transition: color 1s linear;
+        :hover{
+          color: #ffffff;
+        }
+      } 
+    }
+    &__content-buttons{
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px 0px;
+      @include FromMin($x-large) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      & a{
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        border-radius: 15px;
+        color: white;
+        padding: 5px;
+        margin: 10px 0px;
+        text-decoration: none;
+        background-color: #5a0961;
+        &:hover{
+          transition: background-color 1s linear;
+          background-color: #7f0c8a;
+        }
+      }
+
+    }
+  }
+  &__esto{
+    height: 40vh;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    z-index: 2;
+    @include FromMin($x-large) {
+      height: 100vh;
+    }
+  }
+  &__content-moon{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-name: animationMoonMobile;
+    
+    @include FromMin($x-large) {
+      top: 0px;
+      left: 1100px;
+      animation-name: animationMoonDesktop;
+      max-width: 400px;
+      height: 400px;
+    }
+    @include FromMin($xx-large) {
+      max-width: 500px;
+      height: 500px;
+    }
+    @keyframes animationMoonDesktop {
+      100% {
+        top: 440px;
+        left: 250px;
+      }
+    }
+    @keyframes animationMoonMobile {
+      100% {
+        top: 200px;
+        right: 50%;
+      }
+    }
+  }
+  &__moon{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    animation-name: animationColorMoon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    position: relative;
+    @keyframes animationColorMoon {
+      0% {
+        background-color: #bebdbd;
+        box-shadow: 2px 2px 50px 10px #7c7c7c, inset -50px 0 30px #585858;
+      }
+      50% {
+        margin-top: 10px;
+        background-color: #dedede;
+        box-shadow: 2px 2px 50px 20px #7c7c7c, inset -50px 0 30px #585858;
+      }
+      100% {
+        margin-top: 0px;
+        background-color: #bebdbd;
+        box-shadow: 2px 2px 50px 10px #7c7c7c, inset -50px 0 30px #585858;
+      }
+    }
+    &__crater{
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      &:first-child{
+        border: solid 4px rgba(121, 121, 121, .7);
+        border-right: solid 0px transparent;
+        border-top: solid 0px transparent;
+        left: 20px;
+        top: 40%;
+      }
+      &:nth-child(2){
+        border: solid 4px rgba(121, 121, 121, .7);
+        border-right: solid 0px transparent;
+        border-top: solid 0px transparent;
+        left: 140px;
+        top: 40px;
+      }
+      &:nth-child(3){
+        width: 60px;
+        height: 60px;
+        border: solid 4px rgba(121, 121, 121, .7);
+        border-right: solid 0px transparent;
+        border-top: solid 0px transparent;
+        left: 60%;
+        top: 50%;
+      }
+      &:nth-child(4){
+        border: solid 4px rgba(121, 121, 121, .7);
+        border-left: solid 0px transparent;
+        border-bottom: solid 0px transparent;
+        left: 110px;
+        top: 80%;
+      }
+    }
+  }
+  @keyframes animationDarling {
+    0% {
+      background-position: 0 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes move {
+    0% {
+      top: -10px;
+      opacity: 0;
+
+    }
+    100% {
+      top: 0px;
+      opacity: 1;
+    }
+  }
+}
