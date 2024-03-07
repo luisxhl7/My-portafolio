@@ -49,7 +49,7 @@ const projectsList = [
             imagesProjects.vista_portafolio_4,
             imagesProjects.vista_portafolio_5,
         ],
-        video: 'https://www.youtube.com/watch?v=N7wkUuXTZ7s',
+        video: 'https://youtu.be/8cDkDpx-A_U',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
