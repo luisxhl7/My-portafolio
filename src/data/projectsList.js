@@ -49,6 +49,7 @@ const projectsList = [
             imagesProjects.vista_portafolio_4,
             imagesProjects.vista_portafolio_5,
         ],
+        video: 'https://www.youtube.com/watch?v=N7wkUuXTZ7s',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
@@ -99,6 +100,7 @@ const projectsList = [
             imagesProjects.vista_my_music_app_4,
             imagesProjects.vista_my_music_app_5,
         ],
+        video: 'https://youtu.be/F_5AJVNFKJE',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Axios', 'Git', 'Redux', 'Api Spotify']
     },
@@ -148,6 +150,7 @@ const projectsList = [
             imagesProjects.vista_my_store_3,
             imagesProjects.vista_my_store_4,
         ],
+        video: 'https://youtu.be/X4kYylMEuWo',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
@@ -201,6 +204,7 @@ const projectsList = [
             imagesProjects.vista_my_pokedex_3,
             imagesProjects.vista_my_pokedex_4,
         ],
+        video: 'https://youtu.be/S4mmdV90FBo',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['next js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Axios', 'Git', 'Api "PokeApi"']
     },
@@ -245,6 +249,7 @@ const projectsList = [
         images: [
             imagesProjects.vista_my_budget_1,
         ],
+        video: 'https://youtu.be/jctdGxlqwjg',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Git']
     },
@@ -300,6 +305,7 @@ const projectsList = [
             imagesProjects.vista_photShare_3,
             imagesProjects.vista_photShare_4,
         ],
+        video: 'https://youtu.be/skcjbinkHVg',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['React js', 'JavaScript', 'Html', 'Css', 'Sass', 'Bootstrap', 'Testing Library', 'Axios', 'Git', 'Redux', 'MongoDb', 'serverless', 'Aws lambda', 'Api Gateway', 'Cognito' ]
     },
