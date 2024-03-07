@@ -2,6 +2,7 @@ import React from 'react'
 import projectsList from '../../../data/projectsList'
 import { useParams } from 'react-router-dom';
 import './Info-projects.scss'
+import { LightButton } from '../../molecules/light-button/Light-button';
 
 
 export const InfoProjects = ({theme}) => {
@@ -41,6 +42,8 @@ export const InfoProjects = ({theme}) => {
               </ul>
             </div>
           </div>
+
+          <LightButton/>
         </div>
         :
         <div className={`info-Portafolio-page-not-found ${theme ? '--dark' : ''}`}>
