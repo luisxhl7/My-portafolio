@@ -14,7 +14,7 @@ const projectsList = [
             <br/>
             ¡Espero que disfrutes explorando mi portafolio y que encuentres inspiración en mis proyectos!
         </>, 
-        url:'https://main.d1682e8p58bvjn.amplifyapp.com/',
+        url:'https://main.d3i16l42evm7z3.amplifyapp.com/',
         repoGit: 'https://github.com/luisxhl7/portada-portafolio',
         technologies: [
             {
