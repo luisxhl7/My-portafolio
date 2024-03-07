@@ -90,6 +90,11 @@
       }
     }
   }
+  &__content-video{
+    max-width: 640px;
+    background-color: red;
+    margin: 200px auto 0px;
+  }
   &__content-card{
     display: flex;
     flex-direction: column;

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { LightButton } from '../../molecules/light-button/Light-button';
 import { SimpleSlider } from '../../molecules/simpleSlider';
 import './Info-projects.scss'
+// import ReactPlayer from 'react-player';
 
 
 const customSettings = {
@@ -104,6 +105,9 @@ export const InfoProjects = ({theme}) => {
               </SimpleSlider>
             }
           </div>
+          {/* <div  className='info-Portafolio-page__content-video'>
+            <ReactPlayer  url='https://www.youtube.com/watch?v=Kzvo_mQOjwQ&list=RDKzvo_mQOjwQ&start_radio=1'/>
+          </div> */}
         </div>
         :
         <div className={`info-Portafolio-page-not-found ${theme ? '--dark' : ''}`}>
