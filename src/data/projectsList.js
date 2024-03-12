@@ -166,7 +166,7 @@ const projectsList = [
             <br/>
             Aunque la base de datos de la Pokédex se alimenta a través de la API, he diseñado el sistema con un enfoque en la accesibilidad y la eficiencia, garantizando tiempos de carga rápidos y una navegación fluida.
         </>,
-        url:'https://my-pokedexx-one.vercel.app/',
+        url:'https://main.dh792l7ykw60h.amplifyapp.com/',
         repoGit: 'https://github.com/luisxhl7/my-pokedexx',
         technologies: [
             {
@@ -204,7 +204,7 @@ const projectsList = [
             imagesProjects.vista_my_pokedex_3,
             imagesProjects.vista_my_pokedex_4,
         ],
-        video: 'https://youtu.be/S4mmdV90FBo',
+        video: 'https://youtu.be/hEJmXF8MGn8',
         Methodologies:['Atomic Design', 'Bem', 'Mobile first'],
         tools:['next js', 'JavaScript', 'Html', 'Css', 'Sass', 'Testing Library', 'Axios', 'Git', 'Api "PokeApi"']
     },
