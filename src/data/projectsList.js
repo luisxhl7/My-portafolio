@@ -167,7 +167,7 @@ const projectsList = [
             Aunque la base de datos de la Pokédex se alimenta a través de la API, he diseñado el sistema con un enfoque en la accesibilidad y la eficiencia, garantizando tiempos de carga rápidos y una navegación fluida.
         </>,
         url:'https://main.dh792l7ykw60h.amplifyapp.com/',
-        repoGit: 'https://github.com/luisxhl7/my-pokedexx',
+        repoGit: 'https://github.com/luisxhl7/pokedex-nextjs',
         technologies: [
             {
                 image: imagesSkills.react,
