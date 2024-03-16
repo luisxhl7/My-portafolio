@@ -8,6 +8,8 @@ import vista_my_pokedex_1 from './vista-my-pokedex-1.svg'
 import vista_my_pokedex_2 from './vista-my-pokedex-2.svg'
 import vista_my_pokedex_3 from './vista-my-pokedex-3.svg'
 import vista_my_pokedex_4 from './vista-my-pokedex-4.svg'
+import vista_my_pokedex_5 from './vista-my-pokedex-5.svg'
+import vista_my_pokedex_6 from './vista-my-pokedex-6.svg'
 import vista_my_store_1 from './vista-my-store-1.svg'
 import vista_my_store_2 from './vista-my-store-2.svg'
 import vista_my_store_3 from './vista-my-store-3.svg'
@@ -33,6 +35,8 @@ export const imagesProjects = {
  vista_my_pokedex_2,
  vista_my_pokedex_3,
  vista_my_pokedex_4,
+ vista_my_pokedex_5,
+ vista_my_pokedex_6,
  vista_my_store_1,
  vista_my_store_2,
  vista_my_store_3,

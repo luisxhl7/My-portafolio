@@ -93,6 +93,7 @@ export const InfoProjects = ({theme}) => {
               description='Visitar Pagina'
             />
           </div>
+          
           <h2 className='info-Portafolio-page__subTitle'>
             Vista previa
           </h2>
