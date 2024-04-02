@@ -23,6 +23,14 @@ import vista_portafolio_2 from './vista-portafolio-2.svg'
 import vista_portafolio_3 from './vista-portafolio-3.svg'
 import vista_portafolio_4 from './vista-portafolio-4.svg'
 import vista_portafolio_5 from './vista-portafolio-5.svg'
+import vista_my_studio_tattoo_1 from './vista-my-studio-tattoo-1.svg'
+import vista_my_studio_tattoo_2 from './vista-my-studio-tattoo-2.svg'
+import vista_my_studio_tattoo_3 from './vista-my-studio-tattoo-3.svg'
+import vista_my_studio_tattoo_4 from './vista-my-studio-tattoo-4.svg'
+import vista_my_studio_tattoo_5 from './vista-my-studio-tattoo-5.svg'
+import vista_my_studio_tattoo_6 from './vista-my-studio-tattoo-6.svg'
+import vista_my_studio_tattoo_7 from './vista-my-studio-tattoo-7.svg'
+import vista_my_studio_tattoo_test from './vista-my-studio-tattoo-test.svg'
 
 export const imagesProjects = {
  vista_my_budget_1,
@@ -50,4 +58,12 @@ export const imagesProjects = {
  vista_portafolio_3,
  vista_portafolio_4,
  vista_portafolio_5,
+ vista_my_studio_tattoo_1,
+ vista_my_studio_tattoo_2,
+ vista_my_studio_tattoo_3,
+ vista_my_studio_tattoo_4,
+ vista_my_studio_tattoo_5,
+ vista_my_studio_tattoo_6,
+ vista_my_studio_tattoo_7,
+ vista_my_studio_tattoo_test
 }

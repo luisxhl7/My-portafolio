@@ -53,11 +53,13 @@
       text-shadow: 1px 1px 5px black;
     }
     &__networks{
+      margin-top: 10px;
       a{
-        color: #e1e1e1;
+        color: #b3b3b3;
         margin: 5px 10px 5px 0px;
-        transition: color 1s linear;
+        transition: all .5s ease-out;
         :hover{
+        transition: all .5s ease-out;
           color: #ffffff;
         }
       } 

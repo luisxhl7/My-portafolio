@@ -73,6 +73,83 @@ const projectsList = [
     ],
   },
   {
+    image: imagesProjects.vista_my_studio_tattoo_1,
+    title: "My Studio Tattoo",
+    nameLink: "My-Studio-Tattoo",
+    description:
+      "My Studio Tattoo: Donde el Arte se Convierte en Piel. ¡Explora el Lugar donde tus Ideas se Plasman en Tinta! Descubre un Mundo de Creatividad y Profesionalismo en Nuestro Estudio de Tatuajes. Desde Diseños Personalizados hasta Clásicos Atemporales, ¡Te Ayudamos a Crear tu Obra Maestra Corporal!",
+    extendedDescription: (
+      <>
+        Bienvenido a este proyecto, el hogar digital de nuestro apasionado
+        estudio de tatuajes. En nuestro espacio virtual, te invitamos a explorar
+        el talento y la creatividad de nuestros distinguidos artistas. Con una
+        interfaz intuitiva y amigable, te sumergirás en un mundo de arte
+        corporal donde cada diseño es una expresión única de identidad y estilo.
+        <br />
+        Nuestra plataforma te brinda la oportunidad de conocer a nuestros
+        talentosos tatuadores, descubrir sus proyectos pasados y actuales, así
+        como sumergirte en su estilo único y sus habilidades excepcionales.
+        Desde el realismo meticuloso hasta la fantasía vibrante, cada uno de
+        nuestros artistas tiene una voz artística distintiva que espera
+        colaborar contigo para hacer realidad tu visión.
+      </>
+    ),
+    url: "https://main.d3ja2l12ik7k49.amplifyapp.com/",
+    repoGit: "https://github.com/luisxhl7/my-tatto-studio-nextJs",
+    technologies: [
+      {
+        image: imagesSkills.react,
+        name: "React js",
+      },
+      {
+        image: imagesSkills.nextJs,
+        name: "next js",
+      },
+      {
+        image: imagesSkills.typeScript,
+        name: "TypeScript",
+      },
+      {
+        image: imagesSkills.sass,
+        name: "Sass",
+      },
+      {
+        image: imagesSkills.git,
+        name: "Git",
+      },
+      {
+        image: imagesSkills.github,
+        name: "GitHub",
+      },
+      {
+        image: imagesSkills.testing_library,
+        name: "Testing library",
+      },
+    ],
+    images: [
+      imagesProjects.vista_my_studio_tattoo_1,
+      imagesProjects.vista_my_studio_tattoo_2,
+      imagesProjects.vista_my_studio_tattoo_3,
+      imagesProjects.vista_my_studio_tattoo_4,
+      imagesProjects.vista_my_studio_tattoo_7,
+      imagesProjects.vista_my_studio_tattoo_6,
+      imagesProjects.vista_my_studio_tattoo_5,
+      imagesProjects.vista_my_studio_tattoo_test,
+    ],
+    video: "https://youtu.be/7YGvJA4adTA",
+    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    tools: [
+      "React js",
+      "Next js",
+      "TypeScript",
+      "Html",
+      "Css",
+      "Sass",
+      "Testing Library",
+      "Git",
+    ],
+  },
+  {
     image: imagesProjects.vista_my_music_app_5,
     title: "My music app",
     nameLink: "my-music-app",
@@ -297,7 +374,10 @@ const projectsList = [
       "Axios",
       "Git",
       <>
-        Api <a href="https://pokeapi.co/" target="_blank">PokeApi</a>
+        Api{" "}
+        <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">
+          PokeApi
+        </a>
       </>,
     ],
   },
