@@ -1,6 +1,6 @@
 import React from "react";
 import imageUser from "../../../assets/imagen-luis.svg";
-// import pdf from "../../../../src/downLoad/cv.pdf";
+import downloadPdf from "../../../assets/resources/cv.pdf";
 import "./AboutMe.scss";
 
 export const AboutMe = ({ theme }) => {
@@ -42,16 +42,16 @@ export const AboutMe = ({ theme }) => {
           Estoy entusiasmado por contribuir con mi experiencia y habilidades en
           tu próximo proyecto. ¡Vamos a construir algo increíble juntos!
         </p>
-        {/* <div className="aboutMe__content-button">
+        <div className="aboutMe__content-button">
           <a
-            href={pdf}
+            href={downloadPdf}
             rel="noopener noreferrer"
-            download="Cv-Luis-Carlos-Hernandez-Lopez.pdf"
+            download
             title="Descargar Curriculum"
           >
             Descargar Curriculum
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
