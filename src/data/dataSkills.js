@@ -54,6 +54,18 @@ const skillList = [
     image: imagesSkills.materialUI,
     name: 'Material UI',
   },
+  {
+    image: imagesSkills.nodejs,
+    name: 'Node js',
+  },
+  {
+    image: imagesSkills.express,
+    name: 'Express',
+  },
+  {
+    image: imagesSkills.mongo_DB,
+    name: 'Mongo DB',
+  },
 ]
 
 export default skillList

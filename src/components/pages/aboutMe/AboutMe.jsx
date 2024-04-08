@@ -1,6 +1,5 @@
 import React from "react";
 import imageUser from "../../../assets/imagen-luis.svg";
-import downloadPdf from "./";
 import "./AboutMe.scss";
 
 export const AboutMe = ({ theme }) => {

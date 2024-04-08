@@ -61,7 +61,7 @@ const projectsList = [
       imagesProjects.vista_portafolio_5,
     ],
     video: "https://youtu.be/8cDkDpx-A_U",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "JavaScript",
@@ -137,7 +137,7 @@ const projectsList = [
       imagesProjects.vista_my_studio_tattoo_test,
     ],
     video: "https://youtu.be/7YGvJA4adTA",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "Next js",
@@ -211,7 +211,7 @@ const projectsList = [
       imagesProjects.vista_my_music_app_5,
     ],
     video: "https://youtu.be/F_5AJVNFKJE",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "JavaScript",
@@ -287,7 +287,7 @@ const projectsList = [
       imagesProjects.vista_my_store_4,
     ],
     video: "https://youtu.be/X4kYylMEuWo",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "JavaScript",
@@ -363,7 +363,7 @@ const projectsList = [
       imagesProjects.vista_my_pokedex_6,
     ],
     video: "https://youtu.be/_BVrLL4FN-k",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "next js",
       "JavaScript",
@@ -431,7 +431,7 @@ const projectsList = [
     ],
     images: [imagesProjects.vista_my_budget_1],
     video: "https://youtu.be/jctdGxlqwjg",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "JavaScript",
@@ -507,7 +507,7 @@ const projectsList = [
       imagesProjects.vista_photShare_4,
     ],
     video: "https://youtu.be/skcjbinkHVg",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
     tools: [
       "React js",
       "JavaScript",

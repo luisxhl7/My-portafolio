@@ -11,6 +11,9 @@ import testing_library from './testing-library.svg'
 import bootstrap from './bootstrap.svg'
 import materialUI from './material-UI.svg'
 import nextJs from './nextJs.svg'
+import express from './express.svg'
+import nodejs from './nodejs.svg'
+import mongo_DB from './mongo-Db.svg'
 
 export const imagesSkills = {
     git,
@@ -25,5 +28,8 @@ export const imagesSkills = {
     awsImage,
     bootstrap,
     materialUI,
-    nextJs
+    nextJs,
+    express,
+    nodejs,
+    mongo_DB
 }
