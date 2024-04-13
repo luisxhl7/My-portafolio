@@ -94,7 +94,7 @@ const projectsList = [
         colaborar contigo para hacer realidad tu visión.
       </>
     ),
-    url: "https://main.d3ja2l12ik7k49.amplifyapp.com/",
+    url: "https://main.d342b4nyyswrds.amplifyapp.com/",
     repoGit: "https://github.com/luisxhl7/my-tatto-studio-nextJs",
     technologies: [
       {
