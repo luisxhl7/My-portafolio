@@ -85,13 +85,20 @@ export const InfoProjects = ({theme}) => {
             <LightButton 
               repoGit={result[0]?.repoGit} 
               title={`Visitar repositorio de ${result[0]?.title}`} 
-              description='Visitar Repositorio'
+              description='Visitar Repositorio FrontEnd'
             />
             <LightButton 
               repoGit={result[0]?.url} 
               title={`Visitar pagina de ${result[0]?.title}`} 
               description='Visitar Pagina'
             />
+            {result[0]?.repoGitBack &&
+              <LightButton 
+                repoGit={result[0]?.repoGitBack} 
+                title={`Visitar repositorio de ${result[0]?.title}`} 
+                description='Visitar Repositorio BackEnd'
+              />
+            }
           </div>
           
           <h2 className='info-Portafolio-page__subTitle'>

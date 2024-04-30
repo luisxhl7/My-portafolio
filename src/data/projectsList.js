@@ -80,27 +80,37 @@ const projectsList = [
       "My Studio Tattoo: Donde el Arte se Convierte en Piel. ¡Explora el Lugar donde tus Ideas se Plasman en Tinta! Descubre un Mundo de Creatividad y Profesionalismo en Nuestro Estudio de Tatuajes. Desde Diseños Personalizados hasta Clásicos Atemporales, ¡Te Ayudamos a Crear tu Obra Maestra Corporal!",
     extendedDescription: (
       <>
-        Bienvenido a este proyecto, el hogar digital de nuestro apasionado
-        estudio de tatuajes. En nuestro espacio virtual, te invitamos a explorar
+        Bienvenido a este proyecto, el hogar digital de este apasionado
+        estudio de tatuajes. En este espacio virtual, te invitamos a explorar
         el talento y la creatividad de nuestros distinguidos artistas. Con una
         interfaz intuitiva y amigable, te sumergirás en un mundo de arte
         corporal donde cada diseño es una expresión única de identidad y estilo.
         <br />
-        Nuestra plataforma te brinda la oportunidad de conocer a nuestros
+        Esta plataforma te brinda la oportunidad de conocer a nuestros
         talentosos tatuadores, descubrir sus proyectos pasados y actuales, así
         como sumergirte en su estilo único y sus habilidades excepcionales.
         Desde el realismo meticuloso hasta la fantasía vibrante, cada uno de
         nuestros artistas tiene una voz artística distintiva que espera
         colaborar contigo para hacer realidad tu visión.
+        <br/>
+        Este proyecto ofrece la funcionalidad de registro y login de usuarios, 
+        permitiéndoles agendar citas con nuestros tatuadores para una variedad 
+        de propósitos.
+        <br/>
+        Este proyecto, concebido como una oportunidad para poner en práctica y 
+        demostrar mis habilidades en el desarrollo de software, se centra en la 
+        implementación tanto de backEnd como frontEnd. A través de esta iniciativa, 
+        he buscado no solo expandir mis conocimientos técnicos, sino también 
+        destacar mi capacidad para crear soluciones innovadoras y funcionales en 
+        el campo del desarrollo de software. Este proyecto representa mi compromiso 
+        con la excelencia y la mejora continua en mi carrera profesional como 
+        desarrollador de software.
       </>
     ),
-    url: "https://main.d342b4nyyswrds.amplifyapp.com/",
+    url: "https://my-tatto-studio.vercel.app/",
     repoGit: "https://github.com/luisxhl7/my-tatto-studio-nextJs",
+    repoGitBack: "https://github.com/luisxhl7/BackEnd---My-tatto-studio",
     technologies: [
-      {
-        image: imagesSkills.react,
-        name: "React js",
-      },
       {
         image: imagesSkills.nextJs,
         name: "next js",
@@ -125,6 +135,18 @@ const projectsList = [
         image: imagesSkills.testing_library,
         name: "Testing library",
       },
+      {
+        image: imagesSkills.nodejs,
+        name: "Node js",
+      },
+      {
+        image: imagesSkills.mongo_DB,
+        name: "Mongo DB",
+      },
+      {
+        image: imagesSkills.express,
+        name: "Express",
+      },
     ],
     images: [
       imagesProjects.vista_my_studio_tattoo_1,
@@ -137,9 +159,8 @@ const projectsList = [
       imagesProjects.vista_my_studio_tattoo_test,
     ],
     video: "https://youtu.be/7YGvJA4adTA",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code", "SOLID"],
     tools: [
-      "React js",
       "Next js",
       "TypeScript",
       "Html",
@@ -147,6 +168,9 @@ const projectsList = [
       "Sass",
       "Testing Library",
       "Git",
+      "Node js",
+      "Express",
+      "Mongo DB",
     ],
   },
   {
