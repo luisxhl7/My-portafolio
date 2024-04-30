@@ -1,4 +1,7 @@
 import vista_my_budget_1 from './vista-my-budget-1.svg'
+import vista_empresa_x_1 from './vista-empresa-x-1.svg'
+import vista_empresa_x_2 from './vista-empresa-x-2.svg'
+import vista_empresa_x_3 from './vista-empresa-x-3.svg'
 import vista_my_music_app_1 from './vista-my-music-app-1.svg'
 import vista_my_music_app_2 from './vista-my-music-app-2.svg'
 import vista_my_music_app_3 from './vista-my-music-app-3.svg'
@@ -34,6 +37,9 @@ import vista_my_studio_tattoo_test from './vista-my-studio-tattoo-test.svg'
 
 export const imagesProjects = {
  vista_my_budget_1,
+ vista_empresa_x_1,
+ vista_empresa_x_2,
+ vista_empresa_x_3,
  vista_my_music_app_1,
  vista_my_music_app_2,
  vista_my_music_app_3,

@@ -61,7 +61,7 @@ const projectsList = [
       imagesProjects.vista_portafolio_5,
     ],
     video: "https://youtu.be/8cDkDpx-A_U",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code", "SOLID"],
     tools: [
       "React js",
       "JavaScript",
@@ -70,6 +70,8 @@ const projectsList = [
       "Sass",
       "Testing Library",
       "Git",
+      "GitHub",
+      "Material UI"
     ],
   },
   {
@@ -167,10 +169,15 @@ const projectsList = [
       "Css",
       "Sass",
       "Testing Library",
+      "Redux",
+      "Axios",
       "Git",
+      "GitHub",
       "Node js",
       "Express",
       "Mongo DB",
+      "Vercel",
+      "Railway"
     ],
   },
   {
@@ -245,6 +252,8 @@ const projectsList = [
       "Testing Library",
       "Axios",
       "Git",
+      "GitHub",
+      "Material UI",
       "Redux",
       "Api Spotify",
     ],
@@ -311,7 +320,7 @@ const projectsList = [
       imagesProjects.vista_my_store_4,
     ],
     video: "https://youtu.be/X4kYylMEuWo",
-    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code"],
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code", "SOLID"],
     tools: [
       "React js",
       "JavaScript",
@@ -319,7 +328,10 @@ const projectsList = [
       "Css",
       "Sass",
       "Testing Library",
+      "Material UI",
       "Git",
+      "GitHub",
+      "Redux"
     ],
   },
   {
@@ -396,7 +408,10 @@ const projectsList = [
       "Sass",
       "Testing Library",
       "Axios",
+      "Redux",
+      "Material UI",
       "Git",
+      "GitHub",
       <>
         Api{" "}
         <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">
@@ -464,6 +479,88 @@ const projectsList = [
       "Sass",
       "Testing Library",
       "Git",
+      "GitHub",
+    ],
+  },
+  {
+    image: imagesProjects.vista_empresa_x_1,
+    title: "Empresa X",
+    nameLink: "empresa-x",
+    description:
+      "Empresa X es un proyecto el cual permite ver estadísticas sobre el Covid en un periodo del 2020 al 2021",
+    extendedDescription: (
+      <>
+        La Empresa X es un proyecto que se enfoca en brindar información clara 
+        y accesible sobre las estadísticas relacionadas con el COVID-19. 
+        Su principal herramienta es una tabla gráfica que visualiza de manera 
+        concisa y comprensible los datos relevantes sobre la evolución de la 
+        pandemia. Este recurso permite a las personas entender rápidamente la 
+        situación presentada entre en 2020 hasta el 2021, facilitando la toma de 
+        decisiones informadas y promoviendo la conciencia pública sobre la 
+        importancia de seguir las medidas de prevención y salud recomendadas.
+        <br />
+        Cuenta con filtrado por años y por meses, y adicional dos presentaciones de
+        las estadísticas: tabla gráfica de datos y tabla de contenido
+      </>
+    ),
+    url: "https://main.dyoqmrjktt02q.amplifyapp.com",
+    repoGit: "https://github.com/luisxhl7/Empresa-x",
+    technologies: [
+      {
+        image: imagesSkills.react,
+        name: "react js",
+      },
+      {
+        image: imagesSkills.javaScript,
+        name: "javaScript",
+      },
+      {
+        image: imagesSkills.sass,
+        name: "Sass",
+      },
+      {
+        image: imagesSkills.git,
+        name: "git",
+      },
+      {
+        image: imagesSkills.github,
+        name: "github",
+      },
+      {
+        image: imagesSkills.testing_library,
+        name: "testing library",
+      },
+      {
+        image: imagesSkills.awsImage,
+        name: "AWS",
+      },
+      {
+        image: imagesSkills.materialUI,
+        name: "material UI",
+      },
+    ],
+    images: [
+      imagesProjects.vista_empresa_x_1,
+      imagesProjects.vista_empresa_x_2,
+      imagesProjects.vista_empresa_x_3,
+      imagesProjects.vista_empresa_x_2,
+    ],
+    // video: "https://youtu.be/skcjbinkHVg",
+    Methodologies: ["Atomic Design", "Bem", "Mobile first", "Clean code", "SOLID"],
+    tools: [
+      "React js",
+      "JavaScript",
+      "Html",
+      "Css",
+      "Sass",
+      "Material Ui",
+      "Testing Library",
+      "Axios",
+      "Git",
+      "GitHub",
+      "Redux",
+      "Api Covid",
+      "Aws amplify",
     ],
   },
   {
@@ -542,6 +639,7 @@ const projectsList = [
       "Testing Library",
       "Axios",
       "Git",
+      "GitHub",
       "Redux",
       "MongoDb",
       "serverless",
@@ -550,6 +648,7 @@ const projectsList = [
       "Cognito",
     ],
   },
+
 ];
 
 export default projectsList;
