@@ -19,7 +19,7 @@ const skillList = [
   },
   {
     image: imagesSkills.nextJs,
-    name: 'next Js',
+    name: 'Next Js',
   },
   {
     image: imagesSkills.sass,
@@ -65,6 +65,14 @@ const skillList = [
   {
     image: imagesSkills.mongo_DB,
     name: 'Mongo DB',
+  },
+  {
+    image: imagesSkills.react,
+    name: 'React native',
+  },
+  {
+    image: imagesSkills.expo,
+    name: 'Expo',
   },
 ]
 

@@ -421,6 +421,85 @@ const projectsList = [
     ],
   },
   {
+    image: imagesProjects.vista_facebook_clone_1,
+    title: "Facebook Clon (dev)",
+    nameLink: "FacebookClon",
+    description:
+      "App Facebook clon es un proyecto que actualmente se encuentra en desarrollo implementando la tecnología React Native acompañada de Expo",
+    extendedDescription: (
+      <>
+        Este proyecto se está desarrollando con fines educativos, con el objetivo de reforzar los conocimientos previos y 
+        ampliar la comprensión del uso de la tecnología React Native junto con Expo.
+        <br/>
+        Se eligió como reto la creación de un clon de Facebook, dado que su aplicación móvil y sus interfaces presentan 
+        diseños y funcionalidades desafiantes. Esto lo convierte en un excelente proyecto para demostrar mis habilidades 
+        y potencial, así como para identificar formas de mejorar en la implementación de esta tecnología.
+        <br/>
+        Los objetivos de este proyecto incluyen:
+        <br/>
+        <b>- Mejorar la comprensión de React Native y Expo: </b> 
+        <br/>
+        Desarrollar una aplicación completa desde cero utilizando estas tecnologías.
+        <br/>
+        <b>- Desafiar y expandir habilidades de diseño UI/UX: </b>  
+        <br/>
+        Implementar interfaces complejas y responsivas que imiten la experiencia de usuario de Facebook.
+        <br/>
+        <b>- Aprender buenas prácticas de desarrollo móvil: </b> 
+        <br/>
+        Aplicar principios de arquitectura y código limpio en un proyecto de la vida real.
+        <br/>
+        Actualmente, no hay forma de descargar la aplicación; sin embargo, el repositorio está disponible en el cual pueden encontrar el código 
+        fuente completo.
+      </>
+    ),
+    url: undefined,
+    repoGit: "https://github.com/luisxhl7/clone-facebook-react-native",
+    technologies: [
+      {
+        image: imagesSkills.react,
+        name: "react native",
+      },
+      {
+        image: imagesSkills.expo,
+        name: "Expo",
+      },
+      {
+        image: imagesSkills.javaScript,
+        name: "javaScript",
+      },
+      {
+        image: imagesSkills.git,
+        name: "git",
+      },
+      {
+        image: imagesSkills.github,
+        name: "github",
+      },
+    ],
+    images: [
+      imagesProjects.vista_facebook_clone_1,
+      imagesProjects.vista_facebook_clone_2,
+      imagesProjects.vista_facebook_clone_3,
+      imagesProjects.vista_facebook_clone_4,
+      imagesProjects.vista_facebook_clone_5,
+      imagesProjects.vista_facebook_clone_6,
+      imagesProjects.vista_facebook_clone_7,
+      imagesProjects.vista_facebook_clone_8,
+      imagesProjects.vista_facebook_clone_9,
+    ],
+    video: "https://youtu.be/aXzaOJxnByc",
+    Methodologies: ["Atomic Design", "Clean code", "Solid"],
+    tools: [
+      "React native",
+      "Expo",
+      "JavaScript",
+      "Redux",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     image: imagesProjects.vista_my_budget_1,
     title: "My budget",
     nameLink: "my-budget",
@@ -648,7 +727,6 @@ const projectsList = [
       "Cognito",
     ],
   },
-
 ];
 
 export default projectsList;

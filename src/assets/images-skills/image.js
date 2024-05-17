@@ -14,6 +14,7 @@ import nextJs from './nextJs.svg'
 import express from './express.svg'
 import nodejs from './nodejs.svg'
 import mongo_DB from './mongo-Db.svg'
+import expo from './expo.svg'
 
 export const imagesSkills = {
     git,
@@ -31,5 +32,6 @@ export const imagesSkills = {
     nextJs,
     express,
     nodejs,
-    mongo_DB
+    mongo_DB,
+    expo
 }

@@ -34,6 +34,15 @@ import vista_my_studio_tattoo_5 from './vista-my-studio-tattoo-5.svg'
 import vista_my_studio_tattoo_6 from './vista-my-studio-tattoo-6.svg'
 import vista_my_studio_tattoo_7 from './vista-my-studio-tattoo-7.svg'
 import vista_my_studio_tattoo_test from './vista-my-studio-tattoo-test.svg'
+import vista_facebook_clone_1 from './vista-facebook-clone-1.svg'
+import vista_facebook_clone_2 from './vista-facebook-clone-2.svg'
+import vista_facebook_clone_3 from './vista-facebook-clone-3.svg'
+import vista_facebook_clone_4 from './vista-facebook-clone-4.svg'
+import vista_facebook_clone_5 from './vista-facebook-clone-5.svg'
+import vista_facebook_clone_6 from './vista-facebook-clone-6.svg'
+import vista_facebook_clone_7 from './vista-facebook-clone-7.svg'
+import vista_facebook_clone_8 from './vista-facebook-clone-8.svg'
+import vista_facebook_clone_9 from './vista-facebook-clone-9.svg'
 
 export const imagesProjects = {
  vista_my_budget_1,
@@ -71,5 +80,14 @@ export const imagesProjects = {
  vista_my_studio_tattoo_5,
  vista_my_studio_tattoo_6,
  vista_my_studio_tattoo_7,
- vista_my_studio_tattoo_test
+ vista_my_studio_tattoo_test,
+ vista_facebook_clone_1,
+ vista_facebook_clone_2,
+ vista_facebook_clone_3,
+ vista_facebook_clone_4,
+ vista_facebook_clone_5,
+ vista_facebook_clone_6,
+ vista_facebook_clone_7,
+ vista_facebook_clone_8,
+ vista_facebook_clone_9,
 }

@@ -44,15 +44,17 @@ export const CardBriefcase = ({image, title, description, theme, url, technologi
                 >
                     Info
                 </NavLink>
-                <a 
-                    href={url}
-                    target="_blank" 
-                    rel='noreferrer'
-                    title={`Visita ${title}`}
-                    className={theme ? '--darkBtn' : ''}
-                >
-                    Demo
-                </a>
+                {url &&
+                    <a 
+                        href={url}
+                        target="_blank" 
+                        rel='noreferrer'
+                        title={`Visita ${title}`}
+                        className={theme ? '--darkBtn' : ''}
+                    >
+                        Demo
+                    </a>
+                }
 
             </div>
         </div>

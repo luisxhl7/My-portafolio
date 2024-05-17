@@ -87,11 +87,13 @@ export const InfoProjects = ({theme}) => {
               title={`Visitar repositorio de ${result[0]?.title}`} 
               description='Visitar Repositorio FrontEnd'
             />
-            <LightButton 
-              repoGit={result[0]?.url} 
-              title={`Visitar página de ${result[0]?.title}`} 
-              description='Visitar página'
-            />
+            {result[0]?.url &&
+              <LightButton 
+                repoGit={result[0]?.url} 
+                title={`Visitar página de ${result[0]?.title}`} 
+                description='Visitar página'
+              />
+            }
             {result[0]?.repoGitBack &&
               <LightButton 
                 repoGit={result[0]?.repoGitBack} 
