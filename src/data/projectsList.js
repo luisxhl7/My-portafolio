@@ -664,7 +664,7 @@ const projectsList = [
         sencilla.
       </>
     ),
-    url: "https://main.d3f8bdovm54n3v.amplifyapp.com/home",
+    url: undefined,
     repoGit: "https://github.com/luisxhl7/postShere",
     technologies: [
       {
